@@ -1,0 +1,53 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "cmd+g",
+        "command": "workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
+    },
+    {
+        "key": "alt+l",
+        "command": "toggleFindInSelection",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+cmd+l",
+        "command": "-toggleFindInSelection",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+cmd+e",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "cmd+j cmd+p",
+        "command": "workbench.action.focusPanel"
+    },
+    {
+        "key": "cmd+j cmd+o",
+        "command": "workbench.action.closePanel"
+    },
+    {
+        "key": "cmd+j cmd+i",
+        "command": "bookmarks.listFromAllFiles"
+    },
+    {
+        "key": "cmd+k q",
+        "command": "workbench.files.action.focusFilesExplorer"
+    },
+    {
+        "key": "cmd+j cmd+l",
+        "command": "workbench.scm.focus"
+    },
+    {
+        "key": "cmd+j cmd+j",
+        "command": "workbench.explorer.fileView.focus"
+    },
+    {
+        "key": "cmd+j cmd+k",
+        "command": "workbench.files.action.collapseExplorerFolders"
+    }
+]

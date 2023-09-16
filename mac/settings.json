@@ -1,0 +1,29 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "editor.fontSize": 12,
+    "explorer.confirmDelete": false,
+    "git.suggestSmartCommit": false,
+    "python.venvPath": "~/Documents/src/misc/gcp_utils/env;~/Documents/src/recommendations/env",
+    "python.isort.args": [
+        "--src=${workspaceFolder}"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "max-line-length=100"
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.formatOnSave": true,
+    },
+    "files.eol": "\n",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "window.zoomLevel": -1,
+    "python.sortImports.args": [
+        "--src=${workspaceFolder}"
+    ],
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+}
