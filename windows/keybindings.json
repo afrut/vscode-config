@@ -1,0 +1,27 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+j ctrl+j",
+        "command": "workbench.files.action.focusFilesExplorer"
+    },
+    {
+        "key": "ctrl+j ctrl+i",
+        "command": "bookmarks.listFromAllFiles"
+    },
+    {
+        "key": "ctrl+j ctrl+p",
+        "command": "workbench.action.focusPanel"
+    },
+    {
+        "key": "ctrl+j ctrl+o",
+        "command": "workbench.action.closePanel"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "-code-runner.runCustomCommand"
+    },
+    {
+        "key": "ctrl+j ctrl+k",
+        "command": "workbench.files.action.collapseExplorerFolders"
+    }
+]
