@@ -1,5 +1,6 @@
 {
     "editor.fontSize": 13,
+    "window.zoomLevel": -1,
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "explorer.confirmDelete": false,
@@ -8,8 +9,9 @@
     "rewrap.autoWrap.enabled": true,
     "rewrap.wrappingColumn": 80,
     "explorer.confirmDragAndDrop": false,
-    "java.semanticHighlighting.enabled": true,
     "editor.multiCursorModifier": "alt",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "extensions.ignoreRecommendations": true,
     "files.exclude": {
         "**/.classpath": true,
         "**/.project": true,
@@ -64,21 +66,29 @@
         "default": "right",
         "jupyter-notebook": "left"
     },
-    "webhint.enableTelemetry": "disabled",
     "files.watcherExclude": {
         "**/.bloop": true,
         "**/.metals": true,
         "**/.ammonite": true
     },
-    "window.zoomLevel": -1,
-    "diffEditor.ignoreTrimWhitespace": false,
+    "python.formatting.provider": "none",
     "[python]": {
-        "editor.formatOnType": true
-    },
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+      },
+    "flake8.args": [
+        "--max-line-length=88"
+    ],
+    "isort.args":["--profile", "black"],
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "extensions.ignoreRecommendations": true,
+    "[markdown]": {
+        "editor.tabSize": 2
+    },
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
             "source": "PowerShell",
