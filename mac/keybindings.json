@@ -5,10 +5,6 @@
         "command": "workbench.action.gotoLine"
     },
     {
-        "key": "ctrl+g",
-        "command": "-workbench.action.gotoLine"
-    },
-    {
         "key": "alt+l",
         "command": "toggleFindInSelection",
         "when": "editorFocus"
