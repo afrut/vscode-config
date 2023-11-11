@@ -21,7 +21,7 @@
         "command": "workbench.files.action.focusFilesExplorer"
     },
     {
-        "key": "cmd+j cmd+l",
+        "key": "ctrl+j ctrl+l",
         "command": "workbench.scm.focus"
     },
     {
