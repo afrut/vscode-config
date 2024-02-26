@@ -4,3 +4,4 @@
   ```
 - [Debugging configurations
   documentation](https://code.visualstudio.com/docs/python/debugging#_set-configuration-options)
+- [Command line debugging](https://code.visualstudio.com/docs/python/debugging#_command-line-debugging)
