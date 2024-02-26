@@ -19,6 +19,19 @@
             // Use the interpreter currently selected by the workspace
             // Alternatively, specify path to python interpreter to use
             "python": "${command:python.interpreterPath}"
+        },
+
+        // See
+        // https://code.visualstudio.com/docs/python/debugging#_command-line-debugging
+        // for reference.
+        {
+            "name": "Python Debugger: Attach",
+            "type": "debugpy",
+            "request": "attach",
+            "coinnect": {
+                "host": "localhost",
+                "port": 5678
+            }
         }
     ]
 }
