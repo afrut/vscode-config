@@ -45,5 +45,9 @@
     {
         "key": "cmd+j cmd+k",
         "command": "workbench.files.action.collapseExplorerFolders"
+    },
+    {
+        "key": "cmd+j cmd+;",
+        "command": "outline.focus"
     }
 ]
