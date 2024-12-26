@@ -56,6 +56,14 @@
         }
     },
     "terminal.integrated.defaultProfile.windows": "Ubuntu-22.04 (WSL)",
+    "[json]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "[python]": {
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "ms-python.black-formatter",
@@ -65,21 +73,17 @@
     },
     "black-formatter.args": [
         "--line-length",
-        "88"
+        "100"
     ],
     "flake8.args": [
-        "--max-line-length=88"
+        "--ignore=E203,E266,W503,W605",
+        "--max-line-length=100"
     ],
     "isort.args": [
         "--profile",
         "black"
     ],
-    "[json]": {
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[markdown]": {
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    "mypy-type-checker.args": [
+        "--strict"
+    ]
 }
